@@ -1,8 +1,10 @@
 import React from "react";
 import Chart from "./Chart";
 
-const Charts = ({ coinData }) => {
+const Charts = ({coinData}) => {
+  
   return (
+    
     <div className="charts">
       {coinData.map(coin => (
         <div className="chart__container" key={coin.name}>
@@ -15,6 +17,7 @@ const Charts = ({ coinData }) => {
         </div>
       ))}
     </div>
+    
   );
 };
 export default Charts;
