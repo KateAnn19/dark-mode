@@ -25,10 +25,6 @@ const ExchangeRates = ({ exchangeData }) => {
           <p className="Ex">{countryKey[newKey].type}</p>
         </div>
       );
-      //name
-      //unit
-      //value
-      //type
     }
   }
   return (
