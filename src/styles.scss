@@ -120,7 +120,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -136,7 +136,7 @@ table {
 
 html {
   font-size: 62.5%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
 }
 
@@ -229,8 +229,8 @@ img {
 .coin__title {
   display: block;
   margin-left: 8px;
-    min-width: 160px;
-text-align: left;
+  min-width: 160px;
+  text-align: left;
 }
 
 .coin__symbol {
@@ -247,7 +247,40 @@ text-align: left;
   background-color: #313843;
 
   .navbar {
-    background-color: #1F2022;
+    background-color: #1f2022;
     border: none;
   }
 }
+
+.Country {
+  display: flex;
+  flex-wrap: wrap;
+
+  .Countries {
+    //display:flex;
+    //flex-wrap: wrap;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid pink;
+    width: 30%;
+    .Country-Name {
+      text-align: center;
+    }
+  }
+}
+
+.Exchange-Info{
+  display: flex;
+  flex-wrap: wrap;
+  .Exchange{
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid brown;
+    width: 30%;
+    .Ex{
+      font-size: 2rem;
+      padding: 1%;
+    }
+  }
+}
+
